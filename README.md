@@ -1,8 +1,8 @@
 # Guess Game App
-<a>
-    <a><img href="https://github.com/LeonQi800/GuessGame" target="\_parent" src="https://img.shields.io/github/stars/LeonQi800/GuessGame" /></a>
-    <a><img href="" src="https://img.shields.io/badge/Linkdin-Leon-brightgreen"> </a>
-</a>
+<a><img href="https://github.com/LeonQi800/GuessGame" target="\_parent" src="https://img.shields.io/github/stars/LeonQi800/GuessGame" /></a>
+
+<a><img href="https://www.linkedin.com/in/leon-chao-qi-085335168" src="https://img.shields.io/badge/Linkdin-Leon-brightgreen"> </a>
+
 
 <hr/>
 
@@ -14,7 +14,7 @@ This app inspired by Heads Up, however, Heads Up lack of religion words let user
 Now Guess Game App is here, User can use this app during the party, soical and religion activitive!
 
 ### Screenshot
-<img src="https://github.com/LeonQi800/GuessGame/tree/master/.flie/screenshot/213532408.png">
+<img src="https://github.com/LeonQi800/GuessGame/blob/master/.file/screenshot/213542408.jpg">
 
 ### API references
 <a href="https://docs.expo.io/versions/v36.0.0/sdk/camera/">Camrea</a>
