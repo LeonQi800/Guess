@@ -1,24 +1,12 @@
-# Guess Game App
-<a href="https://github.com/LeonQi800/GuessGame" target="\_parent"><img alt="LeonGit" src="https://img.shields.io/github/stars/LeonQi800/GuessGame" /></a>
-<a href="https://www.linkedin.com/in/leon-chao-qi-085335168" target="\_parent"><img src="https://img.shields.io/badge/Linkdin-Leon-brightgreen" /></a>
+# Mobile App
 
-### Feature
-*Version 0.1: basic setup, select page & gameplay page finished*
+这个项目包含几个小项目：
 
-### About this app
-This app inspired by Heads Up, however, Heads Up lack of religion words let user play and have too many repeat words.
-Now Guess Game App is here, User can use this app during the party, soical and religion activitive!
+1.猜词游戏：GuessGame
+keyword: React Native, expo
 
-### Screenshot
-<img alt="" src="https://github.com/LeonQi800/GuessGame/blob/master/.file/screenshot/213542408.jpg" width="200" />
+2.微信求职小程序：WXApp
+keyword: H5. 微信小程序
 
-### API references
-<a href="https://docs.expo.io/versions/v36.0.0/sdk/camera/">Camrea</a>
-</br>
-<a href="https://docs.expo.io/versions/v36.0.0/sdk/accelerometer/">Accelerometer</a>
-
-### How to install/test
-This app build with react-natvie and base on expo library<br/>
-build: npm i && npm start<br/>
-test: expo start<br/>
-
+3.微信小程序后端：WXApp-WS
+keyword: express, mongoDB
