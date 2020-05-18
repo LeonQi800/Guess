@@ -1,4 +1,4 @@
-const router = require('express').Router();
+const router = require('../node_modules/express').Router();
 const userService = require('../services/userService');
 const auth = require('./auth');
 
