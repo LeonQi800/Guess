@@ -1,10 +1,10 @@
 const mongoose = require('mongoose');
-const uniqueValidator = require('./node_modules/mongoose-unique-validator');
+const uniqueValidator = require('mongoose-unique-validator');
 const crypto = require('crypto');
-const jwt = require('./node_modules/jsonwebtoken');
+const jwt = require('jsonwebtoken');
 const secret = require('../config/keys').secret;
 const messages = require('../config/messages');
- 
+
 
 var UserSchema = new mongoose.Schema({
   email: {type: String, lowercase: true, unique: true, required: [true, messages.CANNOT_BLANK], match: [/\S+@\S+\.\S+/, messages.IS_INVALID], index: true},

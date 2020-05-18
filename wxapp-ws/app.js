@@ -1,15 +1,15 @@
-const express = require('./node_modules/express');
+const express = require('express');
 const app = express();
 const mongoose = require('mongoose');
-const bodyParser = require('./node_modules/body-parser'); 
-const session = require('./node_modules/express-session');
-const cors = require('./node_modules/cors/lib');
-const passport = require('./node_modules/passport');
-const errorhandler = require('./node_modules/errorhandler');
+const bodyParser = require('body-parser'); 
+const session = require('express-session');
+const cors = require('cors');
+const passport = require('passport');
+const errorhandler = require('errorhandler');
 const messages = require('./config/messages');
 const path = require('path');
 const http = require('http');
-const methods = require('./node_modules/methods');
+const methods = require('methods');
 
 require('./models/User');
 require('./config/passport');

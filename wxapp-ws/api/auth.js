@@ -1,4 +1,4 @@
-var jwt = require('../node_modules/express-jwt/lib');
+var jwt = require('express-jwt');
 var secret = require('../config/keys').secret;
 
 function getTokenFromHeader(req){

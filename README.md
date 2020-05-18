@@ -8,5 +8,5 @@ keyword: React Native, expo
 2.微信求职小程序：WXApp
 keyword: H5. 微信小程序
 
-3.微信小程序后端：WXApp-server
+3.微信小程序后端：WXApp-ws
 keyword: express, mongoDB
