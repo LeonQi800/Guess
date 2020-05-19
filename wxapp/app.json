@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/category/index",
+    "pages/user/index",
+    "pages/news/index"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#10578C",
+    "navigationBarTitleText": "Lioenix",
+    "navigationBarTextStyle": "white"
+  },
+  "tabBar": {
+    "color": "#999",
+    "selectedColor": "#ff2d4a",
+    "backgroundColor": "#fafafa",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "icons/home.png",
+      "selectedIconPath": "icons/home-o.png"
+    },
+    {
+      "pagePath": "pages/category/index",
+      "text": "分类",
+      "iconPath": "icons/category.png",
+      "selectedIconPath": "icons/category-o.png"
+    },
+    {
+      "pagePath": "pages/news/index",
+      "text": "最新",
+      "iconPath": "icons/news.png",
+      "selectedIconPath": "icons/news-o.png"
+    },
+    {
+      "pagePath": "pages/user/index",
+      "text": "用户",
+      "iconPath": "icons/user.png",
+      "selectedIconPath": "icons/user-o.png"
+    }
+  ]
+  },
+  "sitemapLocation": "sitemap.json"
+}

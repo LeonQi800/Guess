@@ -1,0 +1,45 @@
+/* pages/index/index.less */
+
+.index__swiper{
+    width: 750rpx;
+    height: 340rpx;
+}
+
+.index__main-image{
+    width: 100%;   
+}
+
+.index__category{
+    padding: 20rpx;
+}
+
+.index__main-context{
+    display: flex;
+}
+
+.index__main-text__header{
+    color: #08103a;
+    font-size: 30rpx;
+    font-weight: bolder;
+}
+.index__main-text__context{
+    color: #838383;
+    font-size: 20rpx;
+}
+
+.index__category-nav{
+    margin: 0 auto;
+    height: 200rpx;
+}
+
+.index__main-category__image{
+    width: 120rpx;
+    min-width: 120rpx;
+}
+
+.index__divider{
+    background: #afafaf;
+    width: 100%;
+    height: 2rpx;
+    margin-bottom: 5rpx;
+}

@@ -1,0 +1,4 @@
+<view class="" hover-class="none" hover-stop-propagation="false">
+    首页
+    <text class="iconfont icon-tianjia"></text>
+</view>

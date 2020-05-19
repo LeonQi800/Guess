@@ -1,0 +1,28 @@
+<view class="">
+    <SearchInput></SearchInput>
+    <view>
+        <!-- 1. swiper标签默认宽高是100% * 150px
+        2. image标签默认宽高是320px * 240px -->
+        <swiper autoplay indicator-dots circular class="index__swiper">
+            <swiper-item
+            wx:for="{{mainPageList}}"
+            wx:key="id">
+                <navigator>
+                    <image class="index__main-image" mode="widthFix" src="{{item.src}}"></image>
+                </navigator>
+            </swiper-item>
+        </swiper>
+    </view>
+     <view class="index__category">
+        <navigator class="index__category-nav"
+        wx:for="{{navList}}"
+        wx:key="id">
+            <text class="index__main-text__header">{{item.header}}</text>
+            <view class="index__divider" />
+            <view class="index__main-context">
+                <image class="index__main-category__image" mode="widthFix" src="{{item.src}}"></image>
+                <text class="index__main-text__context">{{item.context}}</text>
+            </view>
+        </navigator>
+    </view>
+</view>
