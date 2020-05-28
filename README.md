@@ -1,12 +1,15 @@
 # Mobile App
 
-这个项目包含几个小项目：
+这个项目包含几个部分：
 
-1.猜词游戏：GuessGame
+1.react-natvie-app:
+猜词游戏
 keyword: React Native, expo
 
-2.微信求职小程序：WXApp
+2.wx-app:
+从零开始做app微信版
 keyword: H5. 微信小程序
 
-3.微信小程序后端：WXApp-ws
-keyword: express, mongoDB
+3.ios-app:
+从零开始做app苹果版
+keyword: swift
